@@ -5,7 +5,4 @@
     <UpgradeBackupLocation>C:\Users\i5\source\repos\CKK.Logic\Backup\CKK.Logic\</UpgradeBackupLocation>
     <OldToolsVersion>2.0</OldToolsVersion>
   </PropertyGroup>
-  <ItemGroup>
-    <Folder Include="Models\" />
-  </ItemGroup>
 </Project>
