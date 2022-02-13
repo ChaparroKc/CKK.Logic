@@ -6,7 +6,44 @@ using System.Threading.Tasks;
 
 namespace CKK.Logic.Models
 {
-    internal class Customer
+    public class Customer
     {
+        private int Id;
+        private string Name;
+        private string Address;
+
+        _id = Id;
+        _name = Name;
+        _address = Address;
+
+        public int GetId()
+        {
+            return Id;
+        }
+
+        public int SetId(int Id)
+        {
+            _id = Id;
+        }
+
+        public string GetName()
+        {
+            return Name;
+        }
+        
+        public string SetName(string Name)
+        {
+            _name = Name;
+        }
+
+        public string GetAddress()
+        {
+            return Address;
+        }
+
+        public string SetAddress(string Address)
+        {
+            _address = Address;
+        }
     }
 }
