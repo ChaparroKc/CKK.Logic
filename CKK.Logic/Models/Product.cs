@@ -21,7 +21,7 @@ namespace CKK.Logic.Models
 
         public void SetId(int Id)
         {
-            return _id;
+            _id = Id;
         }
 
         public string GetName()
@@ -31,7 +31,7 @@ namespace CKK.Logic.Models
 
         public void SetName(string Name)
         {
-            return _name;
+            _name = Name;
         }
 
         public decimal GetPrice()
@@ -42,7 +42,7 @@ namespace CKK.Logic.Models
 
         public void SetPrice(decimal Price)
         {
-            return _price;
+            _price = Price;
         }
     }
 

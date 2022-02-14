@@ -20,7 +20,7 @@ namespace CKK.Logic.Models
 
         public int SetId(int Id)
         {
-            return _id;
+            _id = Id;
         }
 
         public string GetName()
@@ -30,7 +30,7 @@ namespace CKK.Logic.Models
         
         public string SetName(string Name)
         {
-            return _name;
+            _name = Name;
         }
 
         public string GetAddress()
@@ -40,7 +40,7 @@ namespace CKK.Logic.Models
 
         public string SetAddress(string Address)
         {
-            return _address;
+            _address = Address;
         }
     }
 }
