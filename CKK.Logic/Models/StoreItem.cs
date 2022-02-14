@@ -11,10 +11,10 @@ namespace CKK.Logic.Models
         private Product _product;
         private int _quantity;
 
-        public StoreItem(Product product, int quantity)
+        public StoreItem(Product product, int Quantity)
         {
-            _product = product;
-            _quantity = quantity;
+            _product = Product;
+            _quantity = Quantity;
 
         }
         
@@ -24,7 +24,7 @@ namespace CKK.Logic.Models
 
         }
 
-        public void SetQuantity(int quantity)
+        public void SetQuantity(int Quantity)
         {
             return _quantity;
         }
