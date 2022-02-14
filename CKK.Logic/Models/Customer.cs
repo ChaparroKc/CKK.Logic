@@ -10,7 +10,7 @@ namespace CKK.Logic.Models
     {
         private int _id;
         private string _name;
-        private string _address;
+        private Address _address;
 
        
         public int GetId()
