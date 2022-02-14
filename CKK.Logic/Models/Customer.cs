@@ -20,7 +20,7 @@ namespace CKK.Logic.Models
 
         public int SetId(int Id)
         {
-            _id = Id;
+            return _id;
         }
 
         public string GetName()
