@@ -12,7 +12,7 @@ namespace CKK.Logic.Models
         private string _name;
         private decimal _price;
         
-        
+        int _id;
 
         public int GetId()
         {

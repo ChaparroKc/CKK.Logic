@@ -30,9 +30,9 @@ namespace CKK.Logic.Models
             return Name;
         }
         
-        public string SetName(string _name)
+        public string SetName(string Id)
         {
-            _name = Name;
+            return Name;
         }
 
         public string GetAddress()
