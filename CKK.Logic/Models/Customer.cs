@@ -12,6 +12,8 @@ namespace CKK.Logic.Models
         private string _name;
         private string _address;
 
+        _id = Id;
+        
        
         public int GetId()
         {
