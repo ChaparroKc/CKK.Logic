@@ -41,7 +41,7 @@ namespace CKK.Logic.Models
 
         }
 
-        public decimal SetPrice(decimal, price)
+        public decimal SetPrice(decimal price)
         {
             Price = price;
         }
