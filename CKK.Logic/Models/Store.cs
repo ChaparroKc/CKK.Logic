@@ -1,10 +1,57 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-
-public class Store
+namespace CKK.Logic.Models
 {
-	public Store()
-	{
-		
-	}
+    public class Store
+    {
+        private int Id;
+        private string Name;
+        private Product Product1;
+        private Product Product2;
+        private Product Product3;
+
+        public int GetId()
+        {
+            return Id;
+        }
+
+        public int SetId(int id)
+        {
+            return Id = id;
+        }
+
+        public string GetName()
+        {
+            return Name;
+        }
+
+        public string SetName(string name)
+        {
+            return Name = name;
+        }
+
+        public Product AddStoreItem(Product prod)
+        {
+
+        }
+
+        public int RemoveStoreItem(int productNum)
+        {
+
+        }
+
+        public Product GetStoreItem(int productNum)
+        {
+
+        }
+
+        public Product FindStoreItemById(int id)
+        {
+            
+        }
+    }
 }
