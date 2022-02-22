@@ -36,7 +36,10 @@ namespace CKK.Logic.Models
 
         public Product AddStoreItem(Product prod)
         {
-
+            Product Product1 = new Product();
+            Product Product2 = new Product();
+            Product Product3 = new Product();
+            return prod;
         }
 
         public int RemoveStoreItem(int productNum)
