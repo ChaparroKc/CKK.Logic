@@ -38,7 +38,11 @@ namespace CKK.Logic.Models
 
         public Product AddStoreItem(Product prod)
         {
+            Product1 = new Product();
+            Product2 = new Product();
+            Product3 = new Product();
             return prod;
+
         }
 
         public int RemoveStoreItem(int productNum)
@@ -48,7 +52,7 @@ namespace CKK.Logic.Models
 
         public Product GetStoreItem(int productNum)
         {
-            return GetStoreItem(productNum);
+            return 
         }
 
         public Product FindStoreItemById(int id)
