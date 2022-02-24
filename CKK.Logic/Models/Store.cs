@@ -13,12 +13,7 @@ namespace CKK.Logic.Models
         private Product Product1;
         private Product Product2;
         private Product Product3;
-        // Product1 = a
-        int a;
-        // Product2 = b
-        int b;
-        // Product3 = c
-        int c;
+        
 
 
         public int GetId()
@@ -43,18 +38,9 @@ namespace CKK.Logic.Models
 
         public Product AddStoreItem(Product prod)
         {
-            if(Product1 = 0 )
-            {
-                Product1 = new Product();
-            }
-            if (Product2 = 0)
-            {
-                Product2 = new Product();
-            }
-            if (Product3 = 0)
-            {
-                Product3 = new Product();
-            }
+            Product Product1 = AddStoreItem(prod);
+            Product Product2 = AddStoreItem(prod);
+            Product Product3 = AddStoreItem(prod);
             return prod;
         }
 
