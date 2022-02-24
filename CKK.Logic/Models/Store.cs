@@ -40,18 +40,18 @@ namespace CKK.Logic.Models
         {
             if(prod == Product1)
             {
-                var Product1 = new Product();
-                return prod;
+                Product1 = new Product();
+                return Product1;
             }
             if(prod == Product2)
             {
-                var Product2 = new Product();
-                return prod;
+                Product2 = new Product();
+                return Product2;
             }
             if(prod == Product3)
             {
-                var Product3 = new Product();
-                return prod;
+                Product3 = new Product();
+                return Product3;
             }
             else
             {
