@@ -52,7 +52,22 @@ namespace CKK.Logic.Models
 
         public Product GetStoreItem(int productNum)
         {
-            ;
+            if(productNum == 1)
+            {
+                return Product1;
+            }
+            if(productNum == 1)
+            {
+                return Product2;
+            }
+            if(productNum == 1)
+            {
+                return Product3;
+            }
+            else
+            {
+                return null;
+            }
         }
         public Product FindStoreItemById(int id)
         {
