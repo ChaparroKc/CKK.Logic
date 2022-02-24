@@ -63,17 +63,17 @@ namespace CKK.Logic.Models
 
         public int RemoveStoreItem(int productNum)
         {
-
+            return productNum;
         }
 
         public Product GetStoreItem(int productNum)
         {
-
+            return productNum;
         }
 
         public Product FindStoreItemById(int id)
         {
-            
+            return id;
         }
     }
 }
