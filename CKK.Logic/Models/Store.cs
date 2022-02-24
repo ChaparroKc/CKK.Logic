@@ -38,9 +38,6 @@ namespace CKK.Logic.Models
 
         public Product AddStoreItem(Product prod)
         {
-            Product Product1 = AddStoreItem(prod);
-            Product Product2 = AddStoreItem(prod);
-            Product Product3 = AddStoreItem(prod);
             return prod;
         }
 
@@ -51,12 +48,12 @@ namespace CKK.Logic.Models
 
         public Product GetStoreItem(int productNum)
         {
-            return productNum;
+            return GetStoreItem(productNum);
         }
 
         public Product FindStoreItemById(int id)
         {
-            return id;
+            return FindStoreItemById(id);
         }
     }
 }
