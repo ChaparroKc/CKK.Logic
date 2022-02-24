@@ -38,10 +38,26 @@ namespace CKK.Logic.Models
 
         public Product AddStoreItem(Product prod)
         {
-            Product1 = new Product();
-            Product2 = new Product();
-            Product3 = new Product();
-            return prod;
+            if(prod != Product1)
+            {
+                var Product1 = new Product();
+                return prod;
+            }
+            if(prod != Product2)
+            {
+                var Product2 = new Product();
+                return prod;
+            }
+            if(prod != Product3)
+            {
+                var Product3 = new Product();
+                return prod;
+            }
+            else
+            {
+                return null;
+            }
+
 
         }
 
