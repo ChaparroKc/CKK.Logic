@@ -40,7 +40,7 @@ namespace CKK.Logic.Models
         {
             if(prod == Product1)
             {
-                Product1 = prod;
+               Product Product1 = new Product();
                 return Product1;
             }
             if(prod == Product2)
