@@ -43,7 +43,7 @@ namespace CKK.Logic.Models
 
         public Product AddStoreItem(Product prod)
         {
-            if(Product1 = 0)
+            if(Product1 = 0 )
             {
                 Product1 = new Product();
             }
@@ -65,7 +65,7 @@ namespace CKK.Logic.Models
 
         public Product GetStoreItem(int productNum)
         {
-            return 
+            return productNum;
         }
 
         public Product FindStoreItemById(int id)
