@@ -66,8 +66,18 @@ namespace CKK.Logic.Models
         {
             if(productNum == 1)
             {
-                Product;
-                return productNum;
+                Product1 = null;
+                return Product1;
+            }
+            if (productNum == 2)
+            {
+                Product2 = null;
+                return Product2;
+            }
+            if (productNum == 3)
+            {
+                Product3 = null;
+                return Product3;
             }
             else
             {
