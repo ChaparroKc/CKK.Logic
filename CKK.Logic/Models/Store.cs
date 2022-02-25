@@ -64,7 +64,7 @@ namespace CKK.Logic.Models
 
         public int RemoveStoreItem(int productNum)
         {
-            if(productNum = )
+            if(productNum = Product1)
             {
                 Product1 = productNum.RemoveStoreItem();
                 return Product1;
@@ -74,7 +74,7 @@ namespace CKK.Logic.Models
                 
                 return Product2;
             }
-            if (productNum = )
+            if (productNum = Product3 )
             {
                 
                 return Product3;
