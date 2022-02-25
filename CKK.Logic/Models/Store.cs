@@ -66,7 +66,7 @@ namespace CKK.Logic.Models
         {
             if(productNum == 1)
             {
-                Product1 -= Product1;
+                Product1 = Product();
                 return Product1;
             }
             if (productNum == 1)
