@@ -64,17 +64,17 @@ namespace CKK.Logic.Models
 
         public int RemoveStoreItem(int productNum)
         {
-            if(productNum != null)
+            if(productNum = null)
             {
                 
                 return Product1;
             }
-            if (productNum != null)
+            if (productNum = null)
             {
                 
                 return Product2;
             }
-            if (productNum != null)
+            if (productNum = null)
             {
                 
                 return Product3;
