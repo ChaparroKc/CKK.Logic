@@ -69,12 +69,12 @@ namespace CKK.Logic.Models
                 Product1 = null;
                 return Product1;
             }
-            if (productNum == 2)
+            if (productNum == 1)
             {
                 Product2 = null;
                 return Product2;
             }
-            if (productNum == 3)
+            if (productNum == 1)
             {
                 Product3 = null;
                 return Product3;
@@ -101,7 +101,7 @@ namespace CKK.Logic.Models
             }
             else
             {
-                return null;
+                return productNum;
             }
         }
         public Product FindStoreItemById(int id)
