@@ -71,12 +71,12 @@ namespace CKK.Logic.Models
             }
             if (productNum == 1)
             {
-                
+                Product2 = null;
                 return Product2;
             }
             if (productNum == 1 )
             {
-                
+                Product3 = null;
                 return Product3;
             }
             else
