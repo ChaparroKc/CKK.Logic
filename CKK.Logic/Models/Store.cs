@@ -66,7 +66,7 @@ namespace CKK.Logic.Models
         {
             if(productNum == 1)
             {
-                Product1 = 0;
+                Product1 -= Product1;
                 return Product1;
             }
             if (productNum == 1)
@@ -74,9 +74,9 @@ namespace CKK.Logic.Models
                 Product2 = 0;
                 return Product2;
             }
-            if (productNum = 1)
+            if (productNum == 1)
             {
-                Product3 == 0;
+                Product3 = 0;
                 return Product3;
             }
             else
