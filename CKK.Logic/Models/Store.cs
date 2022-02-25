@@ -81,7 +81,7 @@ namespace CKK.Logic.Models
             }
             else
             {
-                return productNum;
+                return null;
             }
         }
 
