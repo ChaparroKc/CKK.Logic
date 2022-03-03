@@ -41,17 +41,17 @@ namespace CKK.Logic.Models
             if(Product1 == null)
             {
                 Product1 = prod;
-                
+                return prod;
             }
             else if(Product2 == null)
             {
                Product2 = prod;
-                
+               return prod;
             }
             else if(Product3 == null)
             {
                 Product3 = prod;
-                
+                return prod;
             }
             else
             {
