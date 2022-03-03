@@ -65,9 +65,6 @@ namespace CKK.Logic.Models
             {
                 _product3 = null;
                 //return _product3;
-            }else
-            {
-                null;
             }
         }
 
