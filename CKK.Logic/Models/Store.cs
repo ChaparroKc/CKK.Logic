@@ -40,33 +40,41 @@ namespace CKK.Logic.Models
         {
             if(prod == Product1)
             {
-               Product1 = prod;
-                return prod;
+                Product1 = new Product();
+                return Product1;
             }
             else if(prod == Product2)
             {
-                Product2 = prod;
-                return prod;
+               Product2 = new Product();
+                return Product2;
             }
             else if(prod == Product3)
             {
-                Product3 = prod;
-                return prod;
+                Product3 = new Product();
+                return Product3;
             }
             else
             {
                 return null;
             }
-
-
         }
 
-        public int RemoveStoreItem(int productNum)
+        public Product RemoveStoreItem(int productNum)
         {
             if(productNum == 1)
             {
-                Product;
-                return productNum;
+                Product1 = null;
+                return Product1;
+            }
+            if (productNum == 1)
+            {
+                Product2 = null;
+                return Product2;
+            }
+            if (productNum == 1 )
+            {
+                Product3 = null;
+                return Product3;
             }
             else
             {
