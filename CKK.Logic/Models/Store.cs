@@ -36,19 +36,19 @@ namespace CKK.Logic.Models
             return Name = name;
         }
 
-        public Product AddStoreItem(Product prod)
+        public Product AddStoreItem(Product product)
         {
             if(_product1 == null)
             {
-                _product1 = prod;
+                _product1 = product;
                 return _product1;
             }else if(_product2 == null)
             {
-               _product2 = prod;
+               _product2 = product;
                return _product2;
             }else if(_product3 == null)
             {
-                _product3 = prod;
+                _product3 = product;
                 return _product3;
             }else
             {
