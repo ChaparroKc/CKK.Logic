@@ -105,15 +105,15 @@ namespace CKK.Logic.Models
         {
             if(id == Product1)
             {
-                return Id;
+                return id;
             }
             if(id == Product2)
             {
-                return Id;
+                return id;
             }
             if(id == Product3)
             {
-                return Id;
+                return id;
             }
             else
             {
