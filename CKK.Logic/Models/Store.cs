@@ -90,13 +90,13 @@ namespace CKK.Logic.Models
         }
         public Product FindStoreItemById(int id)
         {
-           if(id == _id)
+           if(id == 1)
            {
                return _product1;
-           }if(id == _id)
+           }if(id == 2)
            {
                return _product2;
-           }if(id == _id)
+           }if(id == 3)
            {
                return _product3;
            }else
