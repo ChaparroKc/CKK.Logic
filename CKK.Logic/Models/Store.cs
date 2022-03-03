@@ -42,21 +42,21 @@ namespace CKK.Logic.Models
             {
                 _product1 = prod;
                 return _product1;
-            }
-            else if(_product2 == null)
+            }else if(_product2 == null)
             {
                _product2 = prod;
                return _product2;
-            }
-            else if(_product3 == null)
+            }else if(_product3 == null)
             {
                 _product3 = prod;
                 return _product3;
-            }
-            else
+            }else
             {
-                return null;
+                null;
             }
+            
+            
+            
             
         }
 
