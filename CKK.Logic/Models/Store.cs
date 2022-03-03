@@ -38,17 +38,17 @@ namespace CKK.Logic.Models
 
         public Product AddStoreItem(Product prod)
         {
-            if(prod == Product1)
+            if(Product1 == null)
             {
                 Product1 = prod;
                 return Product1;
             }
-            else if(prod == Product2)
+            else if(Product2 == null)
             {
                Product2 = prod;
                 return Product2;
             }
-            else if(prod == Product3)
+            else if(Product3 == null)
             {
                 Product3 = prod;
                 return Product3;
