@@ -40,7 +40,7 @@ namespace CKK.Logic.Models
         {
             if(prod == Product1)
             {
-                Product1 = new Product(SetName);
+                Product1 = prod;
                 return Product1;
             }
             else if(prod == Product2)
@@ -50,7 +50,7 @@ namespace CKK.Logic.Models
             }
             else if(prod == Product3)
             {
-                Product3 = new Product(SetName);
+                Product3 = prod;
                 return Product3;
             }
             else
