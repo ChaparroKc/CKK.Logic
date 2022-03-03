@@ -14,8 +14,6 @@ namespace CKK.Logic.Models
         private Product _product2;
         private Product _product3;
         
-
-
         public int GetId()
         {
             return Id;
@@ -54,10 +52,6 @@ namespace CKK.Logic.Models
             {
                 return null;
             }
-            
-            
-            
-            
         }
 
         public Product RemoveStoreItem(int productNum)
@@ -66,18 +60,15 @@ namespace CKK.Logic.Models
             {
                 _product1 = null;
                 return _product1;
-            }
-            if (productNum == 1)
+            }else if (productNum == 1)
             {
                 _product2 = null;
                 return _product2;
-            }
-            if (productNum == 1 )
+            }else if (productNum == 1 )
             {
                 _product3 = null;
                 return _product3;
-            }
-            else
+            }else
             {
                 return null;
             }
@@ -88,38 +79,32 @@ namespace CKK.Logic.Models
             if(productNum == 1)
             {
                 return _product1;
-            }
-            if(productNum == 1)
+            }if(productNum == 1)
             {
                 return _product2;
-            }
-            if(productNum == 1)
+            }if(productNum == 1)
             {
                 return _product3;
-            }
-            else
+            }else
             {
                 return null;
-            }
+            }         
         }
         public Product FindStoreItemById(int id)
         {
-           if(id == 1)
-            {
-                return _product1;
-            }
-           if(id == 1)
-            {
-                return _product2;
-            }
-           if(id == 1)
-            {
-                return _product3;
-            }
-            else
-            {
-                return null;
-            }
+           if(id == Id)
+           {
+               return _product1;
+           }if(id == Id)
+           {
+               return _product2;
+           }if(id == Id)
+           {
+               return _product3;
+           }else
+           {
+               return null;
+           }
         } 
     }
 }
