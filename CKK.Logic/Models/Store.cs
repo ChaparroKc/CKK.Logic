@@ -51,23 +51,23 @@ namespace CKK.Logic.Models
             }
         }
 
-        public Product RemoveStoreItem(int productNum)
+        public void RemoveStoreItem(int productNum)
         {
             if(productNum == 1)
             {
                 _product1 = null;
-                return _product1;
+                //return _product1;
             }else if (productNum == 1)
             {
                 _product2 = null;
-                return _product2;
+                //return _product2;
             }else if (productNum == 1 )
             {
                 _product3 = null;
-                return _product3;
+                //return _product3;
             }else
             {
-                return null;
+                null;
             }
         }
 
