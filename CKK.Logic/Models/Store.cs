@@ -53,6 +53,10 @@ namespace CKK.Logic.Models
                 product3 = prod;
                 return product3;
             }
+            else
+            {
+                return null;
+            }
             
         }
 
