@@ -34,7 +34,7 @@ namespace CKK.Logic.Models
             return Name = name;
         }
 
-        public Product AddStoreItem(Product product)
+        public void AddStoreItem(Product product)
         {
             if(_product1 == null)
             {
