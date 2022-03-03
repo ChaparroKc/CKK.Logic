@@ -95,7 +95,7 @@ namespace CKK.Logic.Models
         }
         public Product FindStoreItemById(int id)
         {
-            return FindStoreItemById(id);
+           //return FindStoreItemById(id);
         }
     }
 }
