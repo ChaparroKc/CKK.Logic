@@ -39,18 +39,15 @@ namespace CKK.Logic.Models
             if(_product1 == null)
             {
                 _product1 = product;
-                return _product1;
+                
             }else if(_product2 == null)
             {
                _product2 = product;
-               return _product2;
+               
             }else if(_product3 == null)
             {
                 _product3 = product;
-                return _product3;
-            }else
-            {
-                return null;
+                
             }
         }
 
