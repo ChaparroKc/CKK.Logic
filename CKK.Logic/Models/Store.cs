@@ -10,9 +10,9 @@ namespace CKK.Logic.Models
     {
         private int Id;
         private string Name;
-        private Product product1;
-        private Product product2;
-        private Product product3;
+        private Product _product1;
+        private Product _product2;
+        private Product _product3;
         
 
 
@@ -38,20 +38,20 @@ namespace CKK.Logic.Models
 
         public Product AddStoreItem(Product prod)
         {
-            if(product1 == null)
+            if(_product1 == null)
             {
-                product1 = prod;
-                return product1;
+                _product1 = prod;
+                return _product1;
             }
-            else if(product2 == null)
+            else if(_product2 == null)
             {
-               product2 = prod;
-               return product2;
+               _product2 = prod;
+               return _product2;
             }
-            else if(product3 == null)
+            else if(_product3 == null)
             {
-                product3 = prod;
-                return product3;
+                _product3 = prod;
+                return _product3;
             }
             else
             {
@@ -64,18 +64,18 @@ namespace CKK.Logic.Models
         {
             if(productNum == 1)
             {
-                product1 = null;
-                return product1;
+                _product1 = null;
+                return _product1;
             }
             if (productNum == 1)
             {
-                product2 = null;
-                return product2;
+                _product2 = null;
+                return _product2;
             }
             if (productNum == 1 )
             {
-                product3 = null;
-                return product3;
+                _product3 = null;
+                return _product3;
             }
             else
             {
@@ -87,15 +87,15 @@ namespace CKK.Logic.Models
         {
             if(productNum == 1)
             {
-                return product1;
+                return _product1;
             }
             if(productNum == 1)
             {
-                return product2;
+                return _product2;
             }
             if(productNum == 1)
             {
-                return product3;
+                return _product3;
             }
             else
             {
@@ -106,15 +106,15 @@ namespace CKK.Logic.Models
         {
            if(Id == id)
             {
-                return product1;
+                return _product1;
             }
            if(Id == id)
             {
-                return product2;
+                return _product2;
             }
            if(Id == id)
             {
-                return product3;
+                return _product3;
             }
             else
             {
