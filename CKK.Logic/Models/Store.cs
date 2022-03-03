@@ -45,7 +45,7 @@ namespace CKK.Logic.Models
             }
             else if(prod == Product2)
             {
-               Product2 = new Product(SetName);
+               Product2 = Store.SetName(Name);
                 return Product2;
             }
             else if(prod == Product3)
