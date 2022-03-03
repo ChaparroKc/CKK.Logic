@@ -52,7 +52,7 @@ namespace CKK.Logic.Models
                 return _product3;
             }else
             {
-                null;
+                return null;
             }
             
             
