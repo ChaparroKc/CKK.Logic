@@ -57,11 +57,11 @@ namespace CKK.Logic.Models
             {
                 _product1 = null;
                 return _product1;
-            }else if (productNum == 1)
+            }else if (productNum == 2)
             {
                 _product2 = null;
                 return _product2;
-            }else if (productNum == 1 )
+            }else if (productNum == 3)
             {
                 _product3 = null;
                 return _product3;
