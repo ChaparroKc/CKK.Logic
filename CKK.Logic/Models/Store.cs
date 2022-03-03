@@ -73,10 +73,10 @@ namespace CKK.Logic.Models
             if(productNum == 1)
             {
                 return _product1;
-            }if(productNum == 1)
+            }if(productNum == 2)
             {
                 return _product2;
-            }if(productNum == 1)
+            }if(productNum == 3)
             {
                 return _product3;
             }else
