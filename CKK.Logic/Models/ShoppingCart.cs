@@ -40,6 +40,11 @@ namespace CKK.Logic.Models
             }
         }
 
+		public ShoppingCartItem AddProduct(Product prod)
+        {
+
+        }
+
 
 	}
 }
