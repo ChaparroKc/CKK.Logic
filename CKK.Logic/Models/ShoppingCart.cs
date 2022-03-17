@@ -1,8 +1,28 @@
 ﻿using System;
 
-public class Class1
-{
-	public Class1()
-	{
+namespace CKK.Logic.Models
+{ 
+	public class ShoppingCart
+	{	
+		private Customer _customer;
+		private ShoppingCartItem _product1;
+		private ShoppingCartItem _product2;
+		private ShoppingCartItem _product3;
+
+		public ShoppingCart(cust customer)
+		{
+			Customer = _customer;
+		}
+
+		public int GetCustomerId()
+        {
+			return _customer;
+        }
+
+		public ShoppingCartItem AddProduct(Product prod, int quantity)
+        {
+
+        }
+
 	}
 }
