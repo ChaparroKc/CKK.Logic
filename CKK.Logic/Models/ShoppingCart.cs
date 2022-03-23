@@ -28,11 +28,11 @@ namespace CKK.Logic.Models
             }
 			if (prod == 2)
             {
-				_product2 = quantity;
+				quantity = quantity;
             }
 			if (prod == 3)
             {
-				_product3 = quantity;
+				quantity = quantity;
             }
             else
             {
