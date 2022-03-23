@@ -23,7 +23,7 @@ namespace CKK.Logic.Models
         {
 			if (prod == 1)
             {
-				_product1 = quantity;
+				quantity += quantity;
 
             }
 			if (prod == 2)
