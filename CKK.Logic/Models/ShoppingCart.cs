@@ -23,16 +23,16 @@ namespace CKK.Logic.Models
         {
 			if (prod == 1)
             {
-				_product1 += quantity;
+				_product1 = quantity;
 
             }
 			if (prod == 2)
             {
-				_product2 += quantity;
+				_product2 = quantity;
             }
 			if (prod == 3)
             {
-				_product3 += quantity;
+				_product3 = quantity;
             }
             else
             {
@@ -66,16 +66,16 @@ namespace CKK.Logic.Models
         {
 			if (prod == 1)
             {
-				_product1 -= quantity;
+				_product1 = quantity;
 
             }
 			if (prod == 2)
             {
-				_product2 -= quantity;
+				_product2 = quantity;
             }
 			if (prod == 3)
             {
-				_product3 -= quantity;
+				_product3 = quantity;
             }
             else
             {
