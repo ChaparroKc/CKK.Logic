@@ -11,7 +11,7 @@ namespace CKK.Logic.Models
 
 		public ShoppingCart(Customer cust)
 		{
-			cust = _customer;
+			Customer = _
 		}
 
 		public int GetCustomerId()
@@ -21,18 +21,18 @@ namespace CKK.Logic.Models
 
 		public ShoppingCartItem AddProduct(Product prod, int quantity)
         {
-			if (prod == _product1)
+			if (ShoppingCartItem == _product1)
             {
-				quantity += quantity;
+				prod = quantity;
 
             }
-			if (prod == _product2)
+			if (ShoppingCartItem == _product2)
             {
-				quantity += quantity;
+				prod = quantity;
             }
-			if (prod == _product3)
+			if (ShoppingCartItem == _product3)
             {
-				quantity += quantity;
+				prod = quantity;
             }
             else
             {
