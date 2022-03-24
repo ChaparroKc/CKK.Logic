@@ -23,16 +23,16 @@ namespace CKK.Logic.Models
         {
 			if (ShoppingCartItem == _product1)
             {
-				ShoppingCartItem(quantity) = quantity;
+				ShoppingCartItem(quantity) += quantity;
 
             }
 			if (ShoppingCartItem == _product2)
             {
-				ShoppingCartItem(quantity) = quantity;
+				ShoppingCartItem(quantity) += quantity;
             }
 			if (ShoppingCartItem == _product3)
             {
-				ShoppingCartItem(quantity) = quantity;
+				ShoppingCartItem(quantity) += quantity;
             }
             else
             {
@@ -66,16 +66,16 @@ namespace CKK.Logic.Models
         {
 			if (prod == 1)
             {
-				_product1 = quantity;
+				ShoppingCartItem(quantity) -= quantity;
 
             }
 			if (prod == 2)
             {
-				_product2 = quantity;
+				ShoppingCartItem(quantity) -= quantity;
             }
 			if (prod == 3)
             {
-				_product3 = quantity;
+				ShoppingCartItem(quantity) -= quantity;
             }
             else
             {
