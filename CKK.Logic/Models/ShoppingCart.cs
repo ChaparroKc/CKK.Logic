@@ -44,7 +44,7 @@ namespace CKK.Logic.Models
         {
 			if (prod == 1)
             {
-				ShoppingCart.SetQuantity
+				ShoppingCart.SetQuantity;
 					
             }
 			if (prod == 2)
