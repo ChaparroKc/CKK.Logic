@@ -11,7 +11,7 @@ namespace CKK.Logic.Models
 
 		public ShoppingCart(Customer cust)
 		{
-			Customer = _
+			Customer = cust;
 		}
 
 		public int GetCustomerId()
