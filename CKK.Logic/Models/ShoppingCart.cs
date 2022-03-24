@@ -23,7 +23,7 @@ namespace CKK.Logic.Models
         {
 			if (prod = _product1)
             {
-				ShoppingCart(_product1) = quantity;
+				ShoppingCartItem.Equals(prod, quantity);
 
             }
 			if (prod = _product2)
@@ -44,7 +44,7 @@ namespace CKK.Logic.Models
         {
 			if (prod == 1)
             {
-				ShoppingCartItem(prod) = _product1;
+				ShoppingCart.SetQuantity
 					
             }
 			if (prod == 2)
