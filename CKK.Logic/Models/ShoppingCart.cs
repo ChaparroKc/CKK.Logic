@@ -21,18 +21,18 @@ namespace CKK.Logic.Models
 
 		public ShoppingCartItem AddProduct(Product prod, int quantity)
         {
-			if (ShoppingCartItem == _product1)
+			if (prod == _product1)
             {
-				ShoppingCartItem(quantity) += quantity;
+				ShoppingCart(quantity) += quantity;
 
             }
-			if (ShoppingCartItem == _product2)
+			if (prod == _product2)
             {
-				ShoppingCartItem(quantity) += quantity;
+				ShoppingCart(quantity) += quantity;
             }
-			if (ShoppingCartItem == _product3)
+			if (prod == _product3)
             {
-				ShoppingCartItem(quantity) += quantity;
+				ShoppingCart(quantity) += quantity;
             }
             else
             {
