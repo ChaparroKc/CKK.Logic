@@ -11,7 +11,7 @@ namespace CKK.Logic.Models
 
 		public ShoppingCart(Customer cust)
 		{
-			Customer = cust;
+			_customer = cust;
 		}
 
 		public int GetCustomerId()
@@ -23,16 +23,16 @@ namespace CKK.Logic.Models
         {
 			if (prod = _product1)
             {
-				ShoppingCart(quantity) += quantity;
+				ShoppingCart(_product1) = quantity;
 
             }
 			if (prod = _product2)
             {
-				ShoppingCart(quantity) += quantity;
+				ShoppingCart(_product2) = quantity;
             }
 			if (prod = _product3)
             {
-				ShoppingCart(quantity) += quantity;
+				ShoppingCart(_product3) = quantity;
             }
             else
             {
