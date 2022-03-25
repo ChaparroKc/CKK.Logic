@@ -21,18 +21,18 @@ namespace CKK.Logic.Models
 
 		public ShoppingCartItem AddProduct(Product prod, int quantity)
         {
-			if (prod = _product1)
+			if (prod == 1)
             {
 				ShoppingCartItem.Equals(prod, quantity);
 
             }
-			if (prod = _product2)
+			if (prod == 2)
             {
-				ShoppingCart(_product2) = quantity;
+				ShoppingCartItem.Equals(prod, quantity);
             }
-			if (prod = _product3)
+			if (prod == 3)
             {
-				ShoppingCart(_product3) = quantity;
+				ShoppingCartItem.Equals(prod, quantity);
             }
             else
             {
