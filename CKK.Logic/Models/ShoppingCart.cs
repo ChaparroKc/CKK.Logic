@@ -23,16 +23,16 @@ namespace CKK.Logic.Models
         {
 			if (prod == _product1)
             {
-				ShoppingCartItem.Equals(prod, quantity);
+				return ShoppingCartItem.Equals(_product1, quantity);
 
             }
 			if (prod == _product2)
             {
-				ShoppingCartItem.Equals(prod, quantity);
+				return ShoppingCartItem.Equals(_product2, quantity);
             }
 			if (prod == _product3)
             {
-				ShoppingCartItem.Equals(prod, quantity);
+				return ShoppingCartItem.Equals(_product3, quantity);
             }
             else
             {
