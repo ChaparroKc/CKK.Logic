@@ -21,7 +21,7 @@ namespace CKK.Logic.Models
 
 		public ShoppingCartItem AddProduct(Product prod, int quantity)
         {
-			return ShoppingCartItem(_product1, quantity);
+			_product1 = (_product1, quantity);
 			return ShoppingCartItem(_product2, quantity);
 			return ShoppingCartItem(_product3, quantity);
         }
