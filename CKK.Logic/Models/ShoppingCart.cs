@@ -21,11 +21,7 @@ namespace CKK.Logic.Models
 
 		public ShoppingCartItem AddProduct(Product prod, int quantity)
         {
-			if (prod == 1)
-            { 
-
-				return ShoppingCartItem.SetQuantity(quantity);
-			}
+			_product1.Add(quantity);
 			
         }
 
