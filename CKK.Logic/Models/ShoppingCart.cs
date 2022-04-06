@@ -19,13 +19,13 @@ namespace CKK.Logic.Models
 			return _customer;
         }
 
-		public static ShoppingCartItem AddProduct(Product prod, int quantity)
+		public ShoppingCartItem AddProduct(Product prod, int quantity)
         {
-			if( quantity > 1)
+			if( quantity < 1)
             {
 				return null;
             }
-			if (prod != null && ShoppingCartItem.GetProduct() = Product.GetId())
+			if (prod != null && ShoppingCartItem.GetProduct(_product1) = Product.GetId(_product1))
             {
 				return ShoppingCartItem._product1(SetQuantity) += quantity;
             }
