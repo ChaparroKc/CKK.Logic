@@ -19,7 +19,7 @@ namespace CKK.Logic.Models
 			return _customer;
         }
 
-		public ShoppingCartItem AddProduct(Product prod, int quantity)
+		public static ShoppingCartItem AddProduct(Product prod, int quantity)
         {
 			if( quantity > 1)
             {
