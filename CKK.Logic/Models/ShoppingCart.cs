@@ -5,9 +5,9 @@ namespace CKK.Logic.Models
 	public class ShoppingCart
 	{	
 		private Customer _customer;
-		private ShoppingCartItem _product1;
-		private ShoppingCartItem _product2;
-		private ShoppingCartItem _product3;
+		private ShoppingCartItem a = new _product1;
+		private ShoppingCartItem b = new _product2;
+		private ShoppingCartItem c = new _product3;
 
 		public ShoppingCart(Customer cust)
 		{
@@ -25,9 +25,9 @@ namespace CKK.Logic.Models
             {
 				return null;
             }
-			if(prod = ShoppingCartItem.SetQuantity(quantity => quantity.SetQuantity == ShoppingCart && prod.GetId == id))
+			if(prod = a.ShoppingCartItem.SetQuantity(quantity => quantity.SetQuantity == ShoppingCart && prod.GetId == id))
             {
-				ShoppingCartItem.SetQuantity += quantity;
+				ShoppingCartItem.SetQuantity() += quantity;
             }
 		}
 
