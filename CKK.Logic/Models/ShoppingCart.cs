@@ -80,16 +80,16 @@ namespace CKK.Logic.Models
         {
 			if (prod == 1)
             {
-				ShoppingCartItem(quantity) -= quantity;
+				return ShoppingCartItem(quantity) -= quantity;
 
             }
 			if (prod == 2)
             {
-				ShoppingCartItem(quantity) -= quantity;
+				return ShoppingCartItem(quantity) -= quantity;
             }
 			if (prod == 3)
             {
-				ShoppingCartItem(quantity) -= quantity;
+				return ShoppingCartItem(quantity) -= quantity;
             }
             else
             {
