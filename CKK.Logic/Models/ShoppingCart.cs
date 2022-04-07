@@ -25,7 +25,7 @@ namespace CKK.Logic.Models
             {
 				return null;
             }
-			if (prod != null && Product.GetName() == StoreItem.GetProduct())
+			if (prod != null && Product.GetQuantity() = StoreItem.GetQuantity())
             {
 				return ShoppingCartItem._product(SetQuantity) += quantity;
             }
@@ -78,7 +78,7 @@ namespace CKK.Logic.Models
 
 		public ShoppingCartItem RemoveProduct(Product prod, int quantity)
         {
-			if (prod == 1)
+			if (prod != )
             {
 				return ShoppingCartItem.SetQuantity() -= quantity;
 
