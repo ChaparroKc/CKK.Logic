@@ -80,7 +80,7 @@ namespace CKK.Logic.Models
         {
 			if (prod == 1)
             {
-				return ShoppingCartItem(quantity) -= quantity;
+				return ShoppingCartItem.SetQuantity() -= quantity;
 
             }
 			if (prod == 2)
