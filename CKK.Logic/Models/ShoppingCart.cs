@@ -57,7 +57,7 @@ namespace CKK.Logic.Models
 
 		public ShoppingCartItem RemoveProduct(Product prod, int quantity)
         {
-			if (prod != )
+			if (prod != i)
             {
 				return ShoppingCartItem.SetQuantity() -= quantity;
 
