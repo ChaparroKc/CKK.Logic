@@ -37,22 +37,20 @@ namespace CKK.Logic.Models
 			{
 				return _product3.GetQuantity += quantity;
 			}
-            else
+           	if (_product1 = null)
             {
-				if (_product1 = null)
-                {
-					return _product1.ShoppingCartItem(prod, quantity);
-                }
-				if (_product2 = null)
-				{
-					return _product2.ShoppingCartItem(prod, quantity);
-				}
-				if (_product3 = null)
-				{
-					return _product3.ShoppingCartItem(prod, quantity);
-				}
-
+				return _product1.ShoppingCartItem(prod, quantity);
+            }
+			if (_product2 = null)
+			{
+				return _product2.ShoppingCartItem(prod, quantity);
 			}
+			if (_product3 = null)
+			{
+				return _product3.ShoppingCartItem(prod, quantity);
+			}
+
+		}
 
 
 		}
