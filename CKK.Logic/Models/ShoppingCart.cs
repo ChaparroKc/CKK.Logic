@@ -25,31 +25,10 @@ namespace CKK.Logic.Models
             {
 				return null;
             }
-			if (prod != null && Product.GetQuantity() = StoreItem.GetQuantity())
+			if(prod = _db.ShoppingCartItem.SetQuantity(quantity => quantity.SetQuantity == ShoppingCart && prod.GetId == id))
             {
-				return ShoppingCartItem._product(SetQuantity) += quantity;
+				ShoppingCartItem.SetQuantity += quantity;
             }
-			if (_product2 != null && ShoppingCartItem.GetProduct() = Product.GetId())
-			{
-				return _product2.GetQuantity += quantity;
-			}
-			if (_product3 != null && ShoppingCartItem.GetProduct() = Product.GetId())
-			{
-				return _product3.GetQuantity += quantity;
-			}
-           	if (_product1 = null)
-            {
-				return _product1.ShoppingCartItem(prod, quantity);
-            }
-			if (_product2 = null)
-			{
-				return _product2.ShoppingCartItem(prod, quantity);
-			}
-			if (_product3 = null)
-			{
-				return _product3.ShoppingCartItem(prod, quantity);
-			}
-
 		}
 
 
