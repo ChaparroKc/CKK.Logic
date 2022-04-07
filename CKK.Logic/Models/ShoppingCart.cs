@@ -25,7 +25,7 @@ namespace CKK.Logic.Models
             {
 				return null;
             }
-			if (prod != null && _product1.StoreItem() = _product1.ShoppingCartItem())
+			if (prod != null && Product(_product1) == StoreItem(_product1))
             {
 				return ShoppingCartItem._product(SetQuantity) += quantity;
             }
