@@ -25,7 +25,7 @@ namespace CKK.Logic.Models
             {
 				return null;
             }
-			if(prod = _db.ShoppingCartItem.SetQuantity(quantity => quantity.SetQuantity == ShoppingCart && prod.GetId == id))
+			if(prod = ShoppingCartItem.SetQuantity(quantity => quantity.SetQuantity == ShoppingCart && prod.GetId == id))
             {
 				ShoppingCartItem.SetQuantity += quantity;
             }
