@@ -21,19 +21,19 @@ namespace CKK.Logic.Models
 
 		public ShoppingCartItem AddProduct(Product prod, int _quantity)
         {
-			if( quantity < 1)
+			if( _quantity < 1)
             {
 				return null;
             }
-			if(_product1 != null && product.GetProduct().GetId == prod.GetId())
+			if(_product1 != null && _product.GetProduct().GetId == prod.GetId())
             {
 				ShoppingCart.SetQuantity() += _quantity;
             }
-			if(_product2 != null && product.GetProduct().GetId == prod.GetId())
+			if(_product2 != null && _product.GetProduct().GetId == prod.GetId())
             {
 				ShoppingCart.SetQuantity() += _quantity;
             }
-			if(_product3 != null && product.GetProduct().GetId == prod.GetId())
+			if(_product3 != null && _product.GetProduct().GetId == prod.GetId())
             {
 				ShoppingCart.SetQuantity() += _quantity;
             }
