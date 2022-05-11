@@ -19,7 +19,7 @@ namespace CKK.Logic.Models
 			return _customer;
         }
 
-		public ShoppingCartItem AddProduct(Product prod, int quantity)
+		public ShoppingCartItem AddProduct(Product prod, int _quantity)
         {
 			if( quantity < 1)
             {
@@ -27,15 +27,15 @@ namespace CKK.Logic.Models
             }
 			if(_product1 != null && product.GetProduct().GetId == prod.GetId())
             {
-				ShoppingCart.SetQuantity() += quantity;
+				ShoppingCart.SetQuantity() += _quantity;
             }
 			if(_product2 != null && product.GetProduct().GetId == prod.GetId())
             {
-				ShoppingCart.SetQuantity() += quantity;
+				ShoppingCart.SetQuantity() += _quantity;
             }
 			if(_product3 != null && product.GetProduct().GetId == prod.GetId())
             {
-				ShoppingCart.SetQuantity() += quantity;
+				ShoppingCart.SetQuantity() += _quantity;
             }
 
 		}
