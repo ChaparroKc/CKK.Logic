@@ -25,17 +25,17 @@ namespace CKK.Logic.Models
             {
 				return null;
             }
-			if(product1 != null && product.GetProduct().GetId == prod.GetId())
+			if(_product1 != null && product.GetProduct().GetId == prod.GetId())
             {
-				ShoppingCartItem.SetQuantity() += quantity;
+				ShoppingCartItem.SetQuantity(int) += quantity;
             }
 			if(_product2 != null && product.GetProduct().GetId == prod.GetId())
             {
-				ShoppingCartItem.SetQuantity() += quantity;
+				ShoppingCartItem.SetQuantity(int) += quantity;
             }
 			if(_product3 != null && product.GetProduct().GetId == prod.GetId())
             {
-				ShoppingCartItem.SetQuantity() += quantity;
+				ShoppingCartItem.SetQuantity(int) += quantity;
             }
 
 		}
