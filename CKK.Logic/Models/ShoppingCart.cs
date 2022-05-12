@@ -30,6 +30,10 @@ namespace CKK.Logic.Models
 				ShoppingCartItem _product1 = new ShoppingCartItem(prod, quantity);
 				
 			}
+            else
+            {
+				return ShoppingCartItem.SetQuantity()++;
+            }
 			if(_product2 != null && _product2.GetProduct().GetId() == prod.GetId())
             {
 				ShoppingCartItem _product2 = new ShoppingCartItem(prod, quantity);
