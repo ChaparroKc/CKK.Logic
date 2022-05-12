@@ -25,7 +25,7 @@ namespace CKK.Logic.Models
         
         public void SetQuantity(int quantity)
         {
-             _quantity = quantity;
+             quantity = _quantity;
         }
 
         public Product GetProduct()
