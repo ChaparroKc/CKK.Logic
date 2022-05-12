@@ -48,17 +48,17 @@ namespace CKK.Logic.Models
 
 		public ShoppingCartItem AddProduct(Product prod)
         {
-			if(_product1 == prod)
+			if(_product1 = prod)
             {
 				ShoppingCartItem _product1 = new ShoppingCartItem(prod);
 				return _product1;
             }
-			if(_product2 == prod)
+			if(_product2 = prod)
             {
 				ShoppingCartItem _product2 = new ShoppingCartItem(prod);
 				return _product2;
 			}
-			if(_product3 == prod)
+			if(_product3 = prod)
             {
 				ShoppingCartItem _product3 = new ShoppingCartItem(prod);
 				return _product3;
