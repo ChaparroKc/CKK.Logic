@@ -83,6 +83,10 @@ namespace CKK.Logic.Models
 			{
 				ShoppingCartItem _product3 = new ShoppingCartItem(prod, quantity);
 			}
+			else
+            {
+				return null;
+            }
 		}
 
 		public ShoppingCartItem GetProductById(int id)
