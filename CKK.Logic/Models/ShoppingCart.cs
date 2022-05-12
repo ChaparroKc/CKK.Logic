@@ -25,9 +25,9 @@ namespace CKK.Logic.Models
             {
 				return null;
             }
-			if(_product1 != null && product.GetProduct().GetId() == prod.GetId())
+			if(_product1 != null && _product1.GetProduct().GetId() == prod.GetId())
             {
-				return ShoppingCartItem.SetQuantity(quantity);
+				return ShoppingCartItem.SetQuantity(int quantity);
             }
 			if(_product2 != null && product.GetProduct().GetId() == prod.GetId())
             {
