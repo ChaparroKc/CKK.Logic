@@ -23,7 +23,7 @@ namespace CKK.Logic.Models
             return _quantity;
         }
         
-        public void SetQuantity(int quantity)
+        public static SetQuantity(int quantity)
         {
              quantity = _quantity;
         }
