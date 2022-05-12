@@ -47,16 +47,16 @@ namespace CKK.Logic.Models
         {
 			if(_product1 = null)
             {
-				return _product1.ShoppintCartItem(prod);
+				ShoppingCartItem _product1 = new ShoppingCartItem(prod);
             }
 			if(_product2 = null)
             {
-				return _product2.ShoppingCartItem(prod);
-            }
+				ShoppingCartItem _product2 = new ShoppingCartItem(prod);
+			}
 			if(_product3 = null)
             {
-				return _product3.ShoppingCartItem(prod);
-            }
+				ShoppingCartItem _product3 = new ShoppingCartItem(prod);
+			}
             else
             {
 				return null;
@@ -66,24 +66,23 @@ namespace CKK.Logic.Models
 
 		public ShoppingCartItem RemoveProduct(Product prod, int quantity)
         {
-			if (prod != i)
-            {
-				return ShoppingCartItem.SetQuantity() -= quantity;
-
-            }
-			if (prod == 2)
-            {
-				return ShoppingCartItem(quantity) -= quantity;
-            }
-			if (prod == 3)
-            {
-				return ShoppingCartItem(quantity) -= quantity;
-            }
-            else
-            {
+			if (quantity < 1)
+			{
 				return null;
-            } 
-        }
+			}
+			if (_product1 != null && _product1.GetProduct().GetId() == prod.GetId())
+			{
+				ShoppingCartItem _product1 = new ShoppingCartItem(prod, quantity);
+			}
+			if (_product2 != null && _product2.GetProduct().GetId() == prod.GetId())
+			{
+				ShoppingCartItem _product2 = new ShoppingCartItem(prod, quantity);
+			}
+			if (_product3 != null && _product3.GetProduct().GetId() == prod.GetId())
+			{
+				ShoppingCartItem _product3 = new ShoppingCartItem(prod, quantity);
+			}
+		}
 
 		public ShoppingCartItem GetProductById(int id)
         {
