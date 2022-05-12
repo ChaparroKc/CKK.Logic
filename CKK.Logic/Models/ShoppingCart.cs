@@ -87,19 +87,25 @@ namespace CKK.Logic.Models
 			{
 				ShoppingCartItem _product1 = new ShoppingCartItem(prod, quantity);
 				return _product1;
+
 			}
+
 			if (_product2 != null && _product2.GetProduct().GetId() == prod.GetId())
 			{
 				ShoppingCartItem _product2 = new ShoppingCartItem(prod, quantity);
+				return _product2;
+
 			}
 			if (_product3 != null && _product3.GetProduct().GetId() == prod.GetId())
 			{
 				ShoppingCartItem _product3 = new ShoppingCartItem(prod, quantity);
+				return _product3;
+
 			}
 			else
-            {
-				return null;
-            }
+			{
+				return ShoppingCartItem.SetQuantity()--;
+			}
 		}
 
 		public ShoppingCartItem GetProductById(int id)
