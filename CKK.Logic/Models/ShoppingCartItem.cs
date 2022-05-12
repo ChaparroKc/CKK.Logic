@@ -23,7 +23,7 @@ namespace CKK.Logic.Models
             return _quantity;
         }
         
-        public int SetQuantity(int quantity)
+        public void SetQuantity(int quantity)
         {
              quantity = _quantity;
         }
@@ -39,7 +39,7 @@ namespace CKK.Logic.Models
         }
         public decimal GetTotal()
         {
-            return _quantity * Product.GetPrice();
+            _quantity *= Product.GetPrice();
         }
     }
 }
