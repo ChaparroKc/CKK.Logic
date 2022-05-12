@@ -35,8 +35,8 @@ namespace CKK.Logic.Models
             }
 			if(_product3 != null && _product3.GetProduct().GetId() == prod.GetId())
             {
-				ShoppingCartItem.SetQuantity() = quantity;
-            }
+				ShoppingCartItem _product3 = new ShoppingCartItem(prod, quantity);
+			}
 
 		}
 
