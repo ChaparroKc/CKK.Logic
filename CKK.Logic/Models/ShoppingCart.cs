@@ -106,16 +106,16 @@ namespace CKK.Logic.Models
 
 		public ShoppingCartItem GetProductById(int id)
         {
-			int var = 0;
-			if (var =  )
+			int id = 0;
+			if (id == 1 )
             {
 				return _product1;
             }
-			if ( id == 2)
+			if (id = 2)
             {
 				return _product2;
             }
-			if ( id == 3)
+			if (id = 3)
             {
 				return _product3;
 			}
