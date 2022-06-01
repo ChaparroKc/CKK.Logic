@@ -125,7 +125,7 @@ namespace CKK.Logic.Models
 
 		public ShoppingCartItem GetProductById(int id)
         {
-			int id = 0;
+			
 			if (id == 1 )
             {
 				return _product1;
