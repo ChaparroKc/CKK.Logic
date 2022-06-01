@@ -130,11 +130,11 @@ namespace CKK.Logic.Models
             {
 				return _product1;
             }
-			if (id = 2)
+			if (id == 2)
             {
 				return _product2;
             }
-			if (id = 3)
+			if (id == 3)
             {
 				return _product3;
 			}
