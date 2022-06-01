@@ -47,17 +47,17 @@ namespace CKK.Logic.Models
 			}
 			if(_product1 == null)
             {
-				ShoppingCartItem _product1 = new ShoppingCartItem(prod);
+				ShoppingCartItem _product1 = new ShoppingCartItem(prod, 1);
 				return _product1;
             }
 			if(_product2 == null)
             {
-				ShoppingCartItem _product2 = new ShoppingCartItem(prod);
+				ShoppingCartItem _product2 = new ShoppingCartItem(prod, 1);
 				return _product2;
 			}
 			if(_product3 == null)
             {
-				ShoppingCartItem _product3 = new ShoppingCartItem(prod);
+				ShoppingCartItem _product3 = new ShoppingCartItem(prod, 1);
 				return _product3;
 			}
             else
