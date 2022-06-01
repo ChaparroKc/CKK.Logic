@@ -138,6 +138,10 @@ namespace CKK.Logic.Models
             {
 				return _product3;
 			}
+			else
+            {
+				return null;
+            }
         }
 
 		public decimal GetTotal()
@@ -172,6 +176,10 @@ namespace CKK.Logic.Models
             {
 				return _product3;
             }
+			else
+            {
+				return null;
+            }				
         }
 
 
